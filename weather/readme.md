@@ -1,21 +1,6 @@
+Пример парсинга страницы с библиотекой Jsoup.
 
-package ru.ignatovichanastasiia.weather;
-
-import java.io.IOException;
-import java.net.URL;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-//Jsoup -библиотека для парсинга страницы
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-
-
-/**
- *
- * @author ignatovicganastasiia
- */
+Класс без импортов: 
 public class Weather {
 
     public static void main(String[] args) throws Exception{
